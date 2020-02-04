@@ -41,6 +41,7 @@
             this.myButton.TabIndex = 1;
             this.myButton.Text = "button2";
             this.myButton.UseVisualStyleBackColor = true;
+            this.myButton.Click += new System.EventHandler(this.myButton_Click);
             // 
             // label1
             // 

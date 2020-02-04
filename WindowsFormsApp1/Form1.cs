@@ -26,5 +26,10 @@ namespace WindowsFormsApp1
         {
             MessageBox.Show("ouch");
         }
+
+        private void myButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("the wrong button");
+        }
     }
 }
