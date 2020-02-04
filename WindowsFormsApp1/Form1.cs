@@ -21,5 +21,10 @@ namespace WindowsFormsApp1
         {
             MessageBox.Show("Hello");
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("ouch");
+        }
     }
 }
